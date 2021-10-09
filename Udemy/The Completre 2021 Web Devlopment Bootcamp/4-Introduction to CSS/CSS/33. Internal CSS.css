@@ -1,0 +1,10 @@
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 4px;
+    width: 20px;
+    border-color:black;
+}
+.tag1{
+    color: #3D2C8D;
+}

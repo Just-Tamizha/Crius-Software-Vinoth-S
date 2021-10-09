@@ -1,0 +1,11 @@
+.tag1{
+    background-color: cadetblue;
+}
+/* BODY MARGIN-ZERO CONTROL */
+body{
+    margin: 0px;
+    background-color: lightblue;
+}
+h1{
+    margin: 0px;
+}

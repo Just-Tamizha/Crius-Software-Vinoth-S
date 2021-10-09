@@ -1,0 +1,77 @@
+/*HTML-Table*/
+
+/*Table-Border Collapse used*/
+#tag1{
+    width: 50%;
+    text-align: left;
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+.tag-h1{
+    border: solid 2px black;
+    border-radius: 8px;
+}
+.tag-d1{
+    border: solid 2px black;
+    border-radius: 8px;
+}
+.tag-r1:nth-child(even){
+    background-color: #dddddd;
+}
+.tag-h1:nth-child(even){
+    background-color: #dddddd;
+}
+
+/*Table Border-Collapse not used*/
+#tag2{
+    width: 50%;
+    text-align: left;
+    border: solid 2px black;
+}
+
+/*Table-Sizes,Colspan,Rowspan,Caption*/
+#tag3{
+    width: 50%;
+    text-align: left;
+    border-collapse: collapse;
+}
+.tag-h2{
+    border: solid 2px black;
+    border-radius: 8px;
+}
+.tag-d2{
+    border: solid 2px black;
+    border-radius: 8px;
+}
+
+/*Table-Border Spacing*/
+#tag4{
+    width: 50%;
+    text-align: left;
+    border: solid 2px black;
+    border-spacing: 15px;
+}
+
+/*Table-Hover*/
+#tag5{
+    width: 50%;
+    text-align: left;
+    border: solid 2px black;
+}
+#tag5:hover{
+    background-color: burlywood;
+}
+
+/*Table-Colgroup*/
+#tag6{
+    width: 50%;
+    text-align: left;
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+.tag-h3{
+    border: solid 2px black;
+}
+.tag-d3{
+    border: solid 2px black;
+}

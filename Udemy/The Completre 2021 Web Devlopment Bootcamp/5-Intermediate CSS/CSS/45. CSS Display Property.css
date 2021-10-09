@@ -1,0 +1,33 @@
+#tag1{
+    background-color: #A6A867;
+}
+#tag1-1{
+    display: inline;
+    width: 200px;
+    background-color: #1B2021;
+    color: #E3DCC2;
+}
+#tag1-2{
+    display: block;
+    width: 200px;
+    background-color: #1B2021;
+    color: #E3DCC2;
+}
+#tag1-3{
+    display:inline-block;
+    width: 200px;
+    background-color: #1B2021;
+    color: #E3DCC2;
+}
+#tag1-4{
+    display:none;
+    width: 200px;
+    background-color: #1B2021;
+    color: #E3DCC2; 
+}
+#tag1-5{
+    visibility: hidden;
+    background-color: #1B2021 ;
+}
+
+

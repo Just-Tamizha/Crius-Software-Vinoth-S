@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML-3-Table</title>
+</head>
+<body>
+
+<!--HEAD-->
+<h1 style="text-align: center"><b>Table</b></h1>   
+
+<!-- Topic-->
+<p><b>1. Table-Collapse,Border Radius</b></p>
+
+<p>Note : Border-Collapse used</p>
+<table id="tag1">
+    <tr class="tag-r1">
+        <th class="tag-h1">Head-1</th>
+        <th class="tag-h1">Head-2</th>
+        <th class="tag-h1">Head-3</th>
+    </tr>
+    <tr class="tag-r1">
+        <td class="tag-d1">Data-1</td>
+        <td class="tag-d1">Data-2</td>
+        <td class="tag-d1">Data-3</td>
+    </tr>
+</table>
+
+<p>Note : Border-Collapse NOT used</p>
+<table id="tag2">
+    <tr class="tag-r1">
+        <th class="tag-h1">Head-1</th>
+        <th class="tag-h1">Head-2</th>
+        <th class="tag-h1">Head-3</th>
+    </tr>
+    <tr class="tag-r1">
+        <td class="tag-d1">Data-1</td>
+        <td class="tag-d1">Data-2</td>
+        <td class="tag-d1">Data-3</td>
+    </tr>
+</table>
+<p><b>Note :</b>Border topic covered</p>
+
+<!--TOPIC-->
+<p><b>2. Table-Sizes</b></p>  
+<p>Note : Inline Style used for Width and Height</p>
+<table id="tag3">
+    <tr>
+        <th class="tag-h2" style="width: 70%">Head-1</th>
+        <th class="tag-h2">Head-2</th>
+        <th class="tag-h2">Head-3</th>
+    </tr>
+    <tr style="height: 100px">
+        <td class="tag-d2">Data-1</td>
+        <td class="tag-d2">Data-2</td>
+        <td class="tag-d2">Data-3</td>
+    </tr>
+</table>
+
+<!--TOPIC-->
+<p><b>3. Table-Colspan,Rowspan,Caption</b></p> 
+<table id="tag3">
+   <caption>Caption</caption>
+    <tr>
+        <th class="tag-h2" colspan="2">Colspan</th>
+        <th class="tag-h2" rowspan="2">Rowspan</th>
+    </tr>
+    <tr>
+        <td class="tag-d2">Data-1</td>
+        <td class="tag-d2">Data-2</td>
+    </tr>
+</table>
+      
+<!--TOPIC-->
+<p><b>4. Table-Border Spacing</b></p> 
+<table id="tag4">
+    <tr>
+        <th class="tag-h2">Head-1</th>
+        <th class="tag-h2">Head-2</th>
+        <th class="tag-h2">Head-3</th>
+    </tr>
+    <tr>
+        <td class="tag-d2">Data-1</td>
+        <td class="tag-d2">Data-2</td>
+        <td class="tag-d2">Data-3</td>
+    </tr>
+</table>    
+ 
+<!--TOPIC -->
+<p><b>5. Table-Hover</b></p> 
+<table id="tag5">
+    <tr>
+        <th class="tag-h2">Head-1</th>
+        <th class="tag-h2">Head-2</th>
+        <th class="tag-h2">Head-3</th>
+    </tr>
+    <tr>
+        <td class="tag-d2">Data-1</td>
+        <td class="tag-d2">Data-2</td>
+        <td class="tag-d2">Data-3</td>
+    </tr>
+</table>
+
+<!--TABLE-COLGROUP -->
+<p><b>6. Table-Colgroup</b></p> 
+<p>Topic covered : Colgroup, col, Visibility</p>
+<table id="tag6">
+
+<!--COLGROUP-->
+  
+   <colgroup>
+       <col span="1" style="background-color: bisque">
+       <col span="1">
+       <col span="1" style="background-color: coral">
+       <col span="1" style="visibility: collapse">
+   </colgroup>
+
+<!--Table-->
+    <tr class="tag-r3">
+        <th class="tag-h3">Head-1</th>
+        <th class="tag-h3">Head-2</th>
+        <th class="tag-h3">Head-3</th>
+        <th class="tag-h3">Head-4</th>
+        <th class="tag-h3">Head-5</th>
+        <th class="tag-h3">Head-6</th>
+    </tr>
+    <tr class="tag-r3">
+        <td class="tag-d3">Data-1</td>
+        <td class="tag-d3">Data-2</td>
+        <td class="tag-d3">Data-3</td>
+        <td class="tag-d3">Data-4</td>
+        <td class="tag-d3">Data-5</td>
+        <td class="tag-d3">Data-6</td>
+    </tr>
+    <tr class="tag-r3">
+        <td class="tag-d3">Data-1</td>
+        <td class="tag-d3">Data-2</td>
+        <td class="tag-d3">Data-3</td>
+        <td class="tag-d3">Data-4</td>
+        <td class="tag-d3">Data-5</td>
+        <td class="tag-d3">Data-6</td>
+    </tr>
+    <tr class="tag-r3">
+        <td class="tag-d3">Data-1</td>
+        <td class="tag-d3">Data-2</td>
+        <td class="tag-d3">Data-3</td>
+        <td class="tag-d3">Data-4</td>
+        <td class="tag-d3">Data-5</td>
+        <td class="tag-d3">Data-6</td>
+    </tr>
+</table>
+         
+                                     
+<!-- Link CSS File -->
+<link rel="stylesheet" href="/CSS/HTML-2-Table.css">
+ 
+</body>
+</html>

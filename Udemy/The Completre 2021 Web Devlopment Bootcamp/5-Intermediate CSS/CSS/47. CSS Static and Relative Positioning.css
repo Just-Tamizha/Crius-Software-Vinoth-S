@@ -1,0 +1,69 @@
+/* Relative */
+#tag1{
+    background-color: #34495e;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#tag2{
+    background-color: #f16821;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
+#tag3{
+    background-color: #a3de83;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+/* Absolute */
+#tag4{
+    background-color: #34495e;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#tag5{
+    background-color: #f16821;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+#tag6{
+    background-color: #a3de83;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#tag-1{
+    position: relative;
+}
+
+/* FIXED */
+#tag7{
+    background-color: crimson;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top:0px;
+    right: 0px;
+
+}
+#tag8{
+    background-color: #fab95b;
+    position: sticky;
+    top: 0px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}

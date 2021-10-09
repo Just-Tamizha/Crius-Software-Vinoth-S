@@ -1,0 +1,67 @@
+/*HTML-2-CSS*/
+
+/*Padding,Margin,Border,Outline*/
+#tag1{
+    padding: 25px;
+    margin: 25px;
+    border-style: solid;
+    border-color:#ffba08;
+    border-width: 4px;
+    outline-style: solid;
+    outline-color: blue;
+    outline-width: 4px;
+    background-color: #1d3557;
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+/*HTML-Link*/
+
+/*Link Color*/
+#tag3:link{
+    text-decoration :none;
+    color:white;
+    background-color: black;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+#tag3:hover{
+    text-decoration: none;
+    color: black;
+    background-color:yellow;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+#tag3:active{
+    text-decoration: none;
+    color: white;
+    background-color:red;
+    padding: 8px;
+    border-radius: 8px;
+}
+#tag3:visited{
+    text-decoration: none;
+    color:green;
+    background-color:white;
+    padding: 8px;
+    border-radius: 8px;
+}
+#tag4{
+    width: 25%;
+}
+
+/*IMAGES*/
+
+/*Image Div*/
+#tag5{
+    background-image: url(/Images/Background%20Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+}
+

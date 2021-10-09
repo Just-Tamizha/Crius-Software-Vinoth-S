@@ -1,0 +1,15 @@
+/*HTML-Colors*/
+#tag1{
+    background-color: #41ed49;
+    padding: 50px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+    font-family: monospace;
+    margin: 100px;
+    outline-style: dotted;
+    outline-color: black;
+}
