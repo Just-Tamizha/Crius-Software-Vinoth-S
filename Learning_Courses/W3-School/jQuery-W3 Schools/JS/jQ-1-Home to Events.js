@@ -28,7 +28,31 @@ $(document).ready(function(){
     });
 });
 
-// 2. Multifunctions
+//2. Focus and Blur
+/*
+$(function(){
+    $(".input1").focus(function(){
+        $(this).css("background-color","red");
+    });
+    $(".input1").blur(function(){
+        $(this).css("background-color","Green");   
+    });
+});
+*/
+
+//2.Focus and Blur with on functions
+$(function(){
+    $(".input1").on({
+        focus:function(){
+            $(this).css("background-color","red");
+        },
+        blur:function(){
+            $(this).css("background-color","Green");             
+        }
+    })
+});
+
+// 3. Multifunctions
 $(document).ready(function(){
     $(".multifunctions").on({
         mouseenter:function(){
