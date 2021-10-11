@@ -18,3 +18,14 @@ $(function(){
         $(".togglepara").toggle();
     });
 });
+
+//FADE
+$(function(){
+    $(".fade").click(function(){
+        $(".fade1").fadeOut();
+        $(".fade2").fadeOut("slow");
+        $(".fade3").fadeOut(2000);
+        $(".fade4").fadeTo("slow",0.3);
+        //fade or fadeout,fadein,fadetoggle,fadeTo,opacity
+    });
+});
