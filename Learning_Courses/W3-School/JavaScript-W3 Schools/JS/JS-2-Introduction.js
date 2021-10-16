@@ -4,10 +4,10 @@
 
 // Source Shortcut "src"
 function tag3(){
-	document.getElementById("tag3").src="/Images/pic_bulboff.gif";
+	document.getElementById("tag3").src="../Images/pic_bulboff.gif";
 }
 function tag31(){
-	document.getElementById("tag3").src="/Images/pic_bulbon.gif";
+	document.getElementById("tag3").src="../Images/pic_bulbon.gif";
 }
 
 // CSS

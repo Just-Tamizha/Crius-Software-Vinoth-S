@@ -71,8 +71,3 @@ $(".multiclass").css({
     "font-family":"monospace",
     "color":"red",
 });
-
-
-
-
-
