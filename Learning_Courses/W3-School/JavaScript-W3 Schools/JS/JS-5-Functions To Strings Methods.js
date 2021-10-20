@@ -22,45 +22,27 @@ document.getElementById("tag4").innerHTML=details["age"];
 
 // Strings And Objects
 var name="Tamizha"; //Strings
-var name2=new String("Tamizha") // Strings Objects
+var name2=new String("Tamizha"); // Strings Objects
 // == for value
 // === for value and method
 //  JavaScript objects cannot be compared.
 
 
+// STRING AND METHODS
+let tamizha5="VinothProTamizha";
+document.getElementById("str1").innerHTML=tamizha5.length;
+document.getElementById("str2").innerHTML=tamizha5.slice(5,6); //U can use also negative valuem (-2,-4)
+document.getElementById("str3").innerHTML=tamizha5.substr(5,4);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Replace
+function unction1(){
+    var name45=document.getElementById("demo1").innerHTML;
+    document.getElementById("demo1").innerHTML=name45.replace("change","Vinoth");
+    // Upper case not work in replace because case senstitive
+    // Capsletters/i means insenstive
+    //Word/g means global (at same change all word into required word)
+    // .toUpperCase() , .toLowerCase() also use !
+};
 
 
 
