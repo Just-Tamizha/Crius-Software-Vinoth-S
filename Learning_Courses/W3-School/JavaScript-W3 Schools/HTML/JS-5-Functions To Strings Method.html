@@ -35,38 +35,75 @@
     <!-- HEAD -->
     <h1 style="text-align: center;">Strings</h1>
     <p>Note : Topic covered : length,</p>
-    <img src="../Images/1.png" alt="" width="500px">
+    <img src="../Images/1.png" alt="" width="350px">
 
     <!-- HEAD -->
     <h1 style="text-align: center;">Strings Methods</h1>
 
     <!-- TOPIC -->
     <p>1. length, slice, substring, substr</p>
-    <img src="../Images/2.png" alt="" width="400px">
-    <li><b>Note : Open Js File to Understand</b></li>
-    <p>Total Strings : <span id="str1"></span></p>
+    <img src="../Images/2.png" alt="" width="350px">
+    <p>Examples</p>
+    <p><b>1. Slice</b></p>
+    <p>You cal also use positive and negative value</p>
     <p>Total Slice : <span id="str2"></span></p>
-    <p>Note : Substring can not accept Negative Value (same as slice)</p>
-    <p>Total substr : <span id="str3"></span></p>
+    <p><b>2. Substring</b></p>
+    <p>You cal also use only positive value. Substring can not accept Negative Value (same as slice)</p>
+    <p><b>3. substr</b></p>
+    <p>Note : start and length (Length from starting point) only </p>
+    <p>Substr value : <span id="str3"></span></p>
 
     <!-- TOPIC -->
-    <p><b>2. Replace</b></p>
+    <p><b>4. Replace</b></p>
     <p id="demo1">This para will be change after click below button</p>
-    <button onclick="unction1()">Click Here !</button>
+    <button onclick="unction1()">Click Here !</button><br><br>
+    <li><b>Insensitive</b></li>
+    <p id="line1">This Line is sensitive and Click below To Insensitive</p>
+    <button onclick="linefun()">Click Here</button>
 
-    <p>Topic Covered : /i /g in replacing method</p>
-    <p>Topic Covered : upper and lower case and concat() and trim() and padStart(dimenions,Value) and padEnd()</p>
-    <p>Topic Covered : charAt(),charCodeAt(), split</p>
+    <p><b>NOTE</b></p>
+    <ul>
+        <li>/i /g in replacing method.</li>
+        <li>upper and lower case and concat() and trim() and padStart(dicimal Value) and padEnd() in Methods</li>
+        <li>Position of letter finder : charAt(), charCodeAt()</li>
+    </ul>
+
+    <!-- TOPIC -->
+    <p><b>5. Property Access</b></p>
+    <p>The Property Access is only access the value but can't chanage the value</p>
+    <p>value : <span id="valu1">Tamizha</span></p>
+    <p>Executed value : <span id="valu2"></span></p>
+    <p><b>6. Split</b></p>
+    <img src="..//Images/4.png" alt="" width="300px">
 
     <!-- HEAD -->
     <h1 style="text-align: center;">Strings Search</h1>
 
-    <img src="..//Images/3.png" alt="" width="400px">
-    <p>Both indexOf(), and lastIndexOf() return -1 if the text is not found</p>
-    <p>Note : Search Topic covered and No parameter</p>
-    <p>Match : global and Insenstive</p>
-    <p>Includes also use parameter and use for true or false only</p>
-    <p>Startswith and endswith and also use parameter and its work for only true or false</p>
+    <p><b>1. Search of methods</b></p>
+    <img src="..//Images/3.png" alt="" width="250px">
+    <p><b>NOTE : </b> Both indexOf(), and lastIndexOf() return -1 if the text is not found</p>
+    <ul>
+        <li>Search with parameter</li>
+    </ul>
+    <p>1. The indexOf() method accepts a second parameter as the starting position for the search:</p>
+    <p>Return : <p id="demo123"></p></p>
+
+    <!-- TOPIC -->
+    <p><b>2. Search</b></p>
+    <p><b>Note : </b>string.search() is also indexOf method but Without parameters and return value will be in nunbers</p>
+    <!-- TOPIC -->
+    <p><b>3. Match</b></p>
+    <p><b>Note : </b>string.match() is also search option with global and insensitive option and Important : How many match will be list return value</p>
+    <p>Return Value : <span id="val123"></span></p>
+    <p>Return Value : <span id="val1234"></span></p>
+    <!-- TOPIC -->
+    <p><b>4. Includes</b></p>
+    <p><b>Note : </b> Includes also use parameter and Result will be true or false only</p>
+    <p>Return Value : <span id="val12345"></span></p>
+    <!-- TOPIC -->
+    <p><b>5. Startswith anfd endswith</b></p>
+    <p>Startswith and endswith and also use parameter and its work for only true or false and its Like Includes</p>
+
 
 
 

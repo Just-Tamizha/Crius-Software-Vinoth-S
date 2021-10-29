@@ -30,22 +30,42 @@ var name2=new String("Tamizha"); // Strings Objects
 
 // STRING AND METHODS
 let tamizha5="VinothProTamizha";
-document.getElementById("str1").innerHTML=tamizha5.length;
 document.getElementById("str2").innerHTML=tamizha5.slice(5,6); //U can use also negative valuem (-2,-4)
 document.getElementById("str3").innerHTML=tamizha5.substr(5,4);
 
 // Replace
 function unction1(){
     var name45=document.getElementById("demo1").innerHTML;
-    document.getElementById("demo1").innerHTML=name45.replace("change","Vinoth");
+    document.getElementById("demo1").innerHTML=name45.replace("change","Into Changed");
     // Upper case not work in replace because case senstitive
     // Capsletters/i means insenstive
     //Word/g means global (at same change all word into required word)
     // .toUpperCase() , .toLowerCase() also use !
+    // Concat means
 };
 
+// INSENSITIVE
+function linefun(){
+    var lin1=document.getElementById("line1").innerHTML;
+    document.getElementById("line1").innerHTML=lin1.replace(/INSENSITIVE/i,"Sensitive");
+};
+
+// Property access
+let value1=document.getElementById("valu1").innerHTML;
+document.getElementById("valu2").innerHTML=value1[2];
+
+// Search with Parameter
+let str = "The rain in SPAIN stays mainly in the plain";
+document.getElementById("demo123").innerHTML = str.indexOf("in",15);
+
+// match with global
+document.getElementById("val123").innerHTML=str.match(/ain/g);
+// match with insensitive
+document.getElementById("val1234").innerHTML=str.match(/ain/gi);
 
 
+// Includes and Parameter
+document.getElementById("val12345").innerHTML=str.includes("in",8);
 
 
 
