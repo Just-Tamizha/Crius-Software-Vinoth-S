@@ -1,4 +1,4 @@
-// JavaScript-Functions
+// JavaScript-Functions to Tempaltes
 
 // Functions
 function function1(no1,no2){
@@ -67,13 +67,14 @@ document.getElementById("val1234").innerHTML=str.match(/ain/gi);
 // Includes and Parameter
 document.getElementById("val12345").innerHTML=str.includes("in",8);
 
+// ` USED
+let name123="tamizha";
+let num1234=2;
+let num1236=0.25;
+document.getElementById("use1").innerHTML=`My Name is ${name123}`;
 
-
-
-
-
-
-
+// tofixed
+document.getElementById("use12").innerHTML=`Value is ${((num1234*num1236).toFixed(2))}`;
 
 
 // Alert for any error in JavaScript, Alert not work in window tab.
